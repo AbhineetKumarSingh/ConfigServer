@@ -1,14 +1,6 @@
 spring:
   application:
-    name: USER
-  boot:
-   admin:
-     client:
-       url:
-        - http://localhost:8081 
-  main:
-    allow-circular-references: true    
-    
+    name: USER    
 management:
   endpoints:
     web:
