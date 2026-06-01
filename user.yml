@@ -2,18 +2,9 @@ spring:
   application:
     name: USER    
 management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
   health:
     circuitbreakers:
-      enabled: true
-      
-  endpoint:
-    health:
-      show-details: always
-
+      enabled: true    
 resilience4j:
   circuitbreaker:
     instances:
