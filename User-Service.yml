@@ -1,6 +1,6 @@
 spring:
   application:
-    name: USER    
+    name: User-Service   
 management:
   health:
     circuitbreakers:
